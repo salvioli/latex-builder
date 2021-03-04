@@ -7,4 +7,5 @@ RUN apt-get update && apt-get install -y -qq \
       texlive-science \
       texlive-publishers \
       latexmk \
+      poppler-utils \
     && rm -rf /var/lib/apt/lists/*
