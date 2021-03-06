@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y -qq \
       texlive-latex-extra \
       texlive-science \
       texlive-publishers \
+      texlive-xetex \
       latexmk \
       poppler-utils \
     && rm -rf /var/lib/apt/lists/*
